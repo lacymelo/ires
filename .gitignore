@@ -1,0 +1,5 @@
+vendor/
+uploads/
+resources/model-iot-planning.mwb.bak
+resources/optimization/test.py
+resources/optimization/graphics/*

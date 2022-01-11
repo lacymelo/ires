@@ -1,0 +1,30 @@
+{
+    "name": "lacy/place-reservation",
+    "description": "Projeto iRes - Para reserva de salas",
+    "authors": [
+        {
+            "name": "Laciene Alves Melo",
+            "email": "lacienealvesmelo@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories":[{
+        "type": "vcs",
+        "url": "git@gitlab.com:lacy_/iRes.git"
+    }],
+    "autoload":{
+        "psr-4":{
+            "Source\\": "source/"
+        },
+        "files": ["source/Config.php"]
+    },
+    "require": {
+        "php": "^7.3",
+        "ext-pdo": "*",
+        "labex/basicpdo": "1.0.4",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "4.0.0-alpha", 
+        "phpmailer/phpmailer": "^6.5",
+        "tinymce/tinymce": "^5.8"
+    }
+}
